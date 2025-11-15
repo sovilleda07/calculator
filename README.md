@@ -5,7 +5,7 @@ A simple browser-based calculator that supports addition, subtraction, multiplic
 ---
 
 ## 📌 Overview
-This project is a basic calculator application that allows users to perform simple arithmetic operations directly in the browser. The interface includes number buttons, operator buttons, an equal button to compute results, and a clear button to reset the current operation.
+This project is a basic calculator application that allows users to perform simple arithmetic operations directly in the browser. The interface includes number buttons, operator buttons, an equal button to compute results, and a clear button to reset the current operation. The operation is stored using `localStorage`, so it persists even if you refresh the page.
 
 ---
 
@@ -20,7 +20,8 @@ This project is a basic calculator application that allows users to perform simp
 ## 🛠️ Technologies Used
 - **HTML5** for structure  
 - **CSS3** for styling  
-- **JavaScript** for calculator logic  
+- **JavaScript** for calculator logic
+- **LocalStorage**: For saving operation and result
 
 ---
 
@@ -38,7 +39,7 @@ This project is a basic calculator application that allows users to perform simp
 ---
 
 ## 🧠 How It Works
-- Each button click updates the calculator display.
+- Each button click updates the calculator display and saves it in **LocalStorage**
 - JavaScript functions handle:
   - Capturing user input  
   - Storing the first number, operator, and second number  
@@ -47,13 +48,14 @@ This project is a basic calculator application that allows users to perform simp
 - The **Clear** button resets:
   - The display  
   - Stored values  
-  - Ongoing operations  
+  - Ongoing operations
+  - **LocalStorage**
 
 ---
 
 ## ➕ Live Demo
 
-Experience the game live: [Rock, Paper, Scissors Game](https://sovilleda07.github.io/calculator)
+Experience the game live: [Calculator](https://sovilleda07.github.io/calculator)
 
 ---
 
